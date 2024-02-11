@@ -2,7 +2,7 @@
 // Created by Amy Fetzner on 2/10/2024.
 //
 
-#include "Fraction.h"
+#include "include/Fraction.h"
 #include <numeric>
 
 using namespace Farey;

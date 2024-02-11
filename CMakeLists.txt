@@ -3,4 +3,5 @@ project(Farey)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(Farey main.cpp Fraction.cpp)
+add_subdirectory(src)
+add_subdirectory(test)

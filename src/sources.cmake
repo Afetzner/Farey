@@ -1,0 +1,3 @@
+SET(SOURCES
+        Fraction.cpp
+        )
