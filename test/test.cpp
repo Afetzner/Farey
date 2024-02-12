@@ -6,4 +6,4 @@
 
 TEST_CASE("Always passes") {
     CHECK(true);
-};
+}
