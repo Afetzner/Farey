@@ -2,15 +2,24 @@
   "name": "typescript",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "gyp": "^0.3.0",
+    "lodash": "^4.17.21",
     "pixijs": "^7.1.4",
-    "typescript": "^5.3.3"
+    "save-dev": "^0.0.1-security",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.3.3",
+    "webpack": "^5.90.1",
+    "webpack-cli": "^5.1.4"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.202"
   }
 }
